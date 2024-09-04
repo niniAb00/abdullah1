@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.png",
+    img: "/gggg.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
     header: "/ui.apple.com",
@@ -85,8 +85,8 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-    header: "/ui.apple.com",
+    link: "https://zoom-clone-nine-taupe.vercel.app/",
+    header: "/ui.zoom",
   },
   {
     id: 3,
@@ -103,7 +103,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.youtube.com/",
+    link: "https://www.jsm-phone.com/",
     header: "/ui.apple.com",
   },
 ];
