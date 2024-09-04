@@ -72,12 +72,12 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Explore AI with GPT-4",
+    des: "Unlock the future of artificial intelligence with cutting-edge GPT-4 capabilities designed to revolutionize human-AI interaction.",
     img: "/gggg.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-    header: "/ui.apple.com",
+    link: "https://degitl.web.app/",
+    header: "/ui.GPT4",
   },
   {
     id: 2,
