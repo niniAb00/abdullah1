@@ -97,3 +97,40 @@ After generating a Sentry auth token, set it via the SENTRY_AUTH_TOKEN environme
 
 [info] 
 
+[debug] [2024-09-04T11:47:30.850Z] ----------------------------------------------------------------------
+[debug] [2024-09-04T11:47:30.852Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-09-04T11:47:30.852Z] CLI Version:   13.11.2
+[debug] [2024-09-04T11:47:30.852Z] Platform:      win32
+[debug] [2024-09-04T11:47:30.852Z] Node Version:  v20.14.0
+[debug] [2024-09-04T11:47:30.852Z] Time:          Wed Sep 04 2024 14:47:30 GMT+0300 (التوقيت العربي الرسمي)
+[debug] [2024-09-04T11:47:30.853Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-04T11:47:30.901Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-04T11:47:30.902Z] > authorizing via signed-in user (haninalmolaiky4@gmail.com)
+[debug] [2024-09-04T11:47:30.902Z] [iam] checking project abdulllah-portfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-09-04T11:47:30.903Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/abdulllah-portfolio:testIamPermissions [none]
+[debug] [2024-09-04T11:47:30.903Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/abdulllah-portfolio:testIamPermissions x-goog-quota-user=projects/abdulllah-portfolio
+[debug] [2024-09-04T11:47:30.904Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/abdulllah-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-09-04T11:47:32.139Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/abdulllah-portfolio:testIamPermissions 200
+[debug] [2024-09-04T11:47:32.140Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/abdulllah-portfolio:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-09-04T11:47:32.140Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/abdulllah-portfolio [none]
+[debug] [2024-09-04T11:47:32.839Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/abdulllah-portfolio 200
+[debug] [2024-09-04T11:47:32.839Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/abdulllah-portfolio {"projectId":"abdulllah-portfolio","projectNumber":"502737275991","displayName":"abdulllah-portfolio","name":"projects/abdulllah-portfolio","resources":{"hostingSite":"abdulllah-portfolio"},"state":"ACTIVE","etag":"1_839ede41-88d9-4386-96e1-5e026af7f9b5"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 14.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-09-04T11:47:37.983Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/abdulllah-portfolio/sites/abdulllah-portfolio [none]
+[debug] [2024-09-04T11:47:39.180Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/abdulllah-portfolio/sites/abdulllah-portfolio 200
+[debug] [2024-09-04T11:47:39.180Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/abdulllah-portfolio/sites/abdulllah-portfolio {"name":"projects/abdulllah-portfolio/sites/abdulllah-portfolio","defaultUrl":"https://abdulllah-portfolio.web.app","type":"DEFAULT_SITE"}
+[info]    ▲ Next.js 14.1.4
+
+[info] 
+
