@@ -85,8 +85,8 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://zoom-clone-nine-taupe.vercel.app/",
-    header: "/ui.zoom",
+    link: "https://yoom-site.vercel.app/",
+    header: "/yoom.com",
   },
   {
     id: 3,
