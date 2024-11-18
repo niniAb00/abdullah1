@@ -90,12 +90,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Work in progress...",
-    des: "Build your resume By using AI.",
+    title: "HRWise - Your AI Interview Assistant",
+    des: "Prepare for job interviews and enhance your skills with AI-driven insights.",
     img: "/p-3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "#",
-    header: "/ui.Test.com",
+    link: "https://ai-interview-site.vercel.app/",
+    header: "/HRWise.com",
   },
   {
     id: 1,
